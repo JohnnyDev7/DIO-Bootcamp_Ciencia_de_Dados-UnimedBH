@@ -16,3 +16,15 @@ diametro2 = int(entrada[2])
 
 icm = distancia / (diametro1 + diametro2)
 print(f"{icm:.2f}")
+
+
+
+# Implementação do desafio modificada por mim.
+# Não serve para ser apresentado como resultado do desafio na plataforma da DIO.
+# Apenas para treinamento dos conceitos aprendidos.
+distancia = int(input("Qual a distância entre o Palantír de Sauron e o Palantír de Saruman? "))
+diametro1 = int(input("Qual o diâmetro do Palantír de Sauron? "))
+diametro2 = int(input("Qual o diâmetro do Palantír de Saruman? "))
+
+icm = distancia / (diametro1 + diametro2)
+print(f"A Interferência de Comunicação Mágica entre os Palantírs de Sauron e Saruman é de {icm:.2f}")
